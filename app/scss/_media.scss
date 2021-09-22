@@ -1,0 +1,346 @@
+
+@media (max-width: 1840px) {
+    .header__content {
+        padding-bottom: 100px;
+        flex-direction: column;
+        align-items: center;
+        .header__contact-btn::before {
+            display: none;
+        }
+        .header__text {
+            margin: 0 0 40px 0;
+            text-align: center;
+        }
+        .header__contact {
+            margin: 30px 0;
+        }
+    }
+    
+}
+
+@media (max-width: 1150px) {
+
+    .header__content .header__slider {
+        max-width: 600px;
+    }
+
+    .slick-list.draggable {
+        padding: 0 !important;
+    }
+
+    .header__slider-inner {
+        .slick-arrow-next {
+            right: 40%;
+        }
+        .slick-arrow-prew {
+            left: 40%;
+        }
+    }
+
+    .about__content {
+        p, .about__subtitle {
+            font-size: 18px;
+        }
+        h2 {
+            font-size: 35px;
+        }
+    }
+
+    .footer {
+        padding-top: 30px;
+    }
+    .footer__title {
+        font-size: 35px; 
+    }
+    .footer__subtitle {
+        font-size: 16px;
+        margin-bottom: 25px;
+        &::after {
+            bottom: -20px;
+        }
+    }
+    .social__links-title {
+        margin: 10px 0 20px;
+        font-size: 20px;
+    }
+    
+
+}
+
+@media (max-width: 1150px) {
+    .about__content {
+        .about__subtitle, P {
+            margin-bottom: 20px;
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    .about {
+        padding: 40px 0;
+        .about__inner {
+            display: block;
+        }
+        .about__content, .about__img {
+            width: 100%;
+        }
+        .about__img {
+            text-align: center;
+        }
+    }
+   
+}
+
+
+
+@media (max-width: 750px) {
+
+    .header__text {
+        padding: 0 10px;
+    }
+
+   .header {
+        flex-direction: column;
+        position: relative;
+        padding-bottom: 100px;
+   }
+
+   .header__text {
+       .header__text-subtitle {
+           font-size: 36px;
+       }
+       .header__text-title {
+           font-size: 55px;
+       }
+       .header__contact {
+           font-size: 25px;
+           margin: 20px 0;
+       }
+       .header__contact-btn {
+           font-size: 30px;
+       }
+   }
+
+   .menu__items, .menu__social-links {
+       position: absolute;
+   }
+
+   .header__menu .menu__items {
+        top: 140px;
+        display: block;
+        width: 100%;
+        padding: 0 0 25px 0;
+        border-bottom: 1px solid #48525b;
+   }
+   
+   .header__menu .menu__items li {
+        transform: none;
+        margin: 0;
+        display: inline-block;
+        margin: 0 20px;
+   }
+
+   .header__logo {
+       margin-bottom: 100px;
+       text-align: center;
+       a{
+           margin-left: 0;
+       }
+       img{
+           width: 150px;
+           height: 125px;
+       }
+   }
+
+   .menu__social-links {
+        border-top: 1px solid #48525b;
+       li {
+           display: inline-block;
+           margin: 0 28px;
+        }
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        bottom: 0;
+   }
+   
+    
+}
+
+@media (max-width: 650px) {
+
+    .header__content .header__slider {
+        max-width: 440px;
+    }
+
+    .header__slider .header__slider-img {
+        max-width: 150px;
+        min-height: 320px;
+    }
+    .header__slider .slick-slide {
+        max-width: 150px;
+        max-height: 320px;    
+    }
+    .header__text {
+        .header__text-subtitle {
+            font-size: 30px;
+        }
+        .header__text-title {
+            font-size: 45px;
+        }
+        .header__contact {
+            margin: 10px 0;
+        }
+    }
+
+    .slick-arrow  img {
+        width: 26px;
+    }
+
+    .header__content {
+        padding-bottom: 70px;
+    }
+
+    .header__slider-inner  .slick-arrow-prew, .header__slider-inner .slick-arrow-next {
+        bottom: -65px;
+    }
+
+    .about__content {
+        p, .about__subtitle {
+            font-size: 15px;
+        }
+        h2 {
+            font-size: 30px;
+        }
+    }
+
+    .footer__title {
+        font-size: 30px; 
+        text-align: center;  
+    }
+    .footer__subtitle, .social__links-title {
+        font-size: 14px;
+        text-align: center;
+    }
+    .footer__social-links {
+        padding: 0 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer__social-links .social-link {
+        margin: 0px;
+    }
+    .social__link-img {
+        width: 44px;
+        height: 44px;
+    }
+    .footer__inner {
+        padding-bottom: 20px;
+    }
+    .footer__rights {
+        font-size: 14px;
+        padding: 10px 0;
+    }
+ }
+
+ @media (max-width: 540px) {
+
+    .header__text {
+        .header__text-subtitle {
+            font-size: 20px;
+        }
+        .header__text-title {
+            font-size: 35px;
+            line-height: 50px;
+        }
+        .header__contact-btn {
+            font-size: 25px;
+            padding: 6px 50px;
+        }
+    }
+    .menu__social-links {
+        justify-content: space-around;
+        li {
+            margin: 0;
+        }
+    }
+    
+
+ }
+
+ @media (max-width: 450px) {
+
+    .header {
+        padding-bottom: 70px;
+    }
+
+    .header__menu {
+        .menu__item {
+            font-size: 22px;
+        }
+        .menu__items li {
+            margin: 0 10px;
+        }
+    }
+
+    .header__logo  {
+        margin-bottom: 80px;
+        img {
+            width: 80px;
+            height: 63px;
+        }
+      
+    }
+
+    .header__menu .menu__items {
+        top: 80px;
+        padding-bottom: 15px;
+    }
+
+    .header__content .header__slider {
+        max-width: 100%;
+    }
+
+    .menu__social-links {
+        .social-link {
+            margin: 7px 0;
+        }
+        .social__link-img {
+            width: 30px;
+            height: 30px;
+        }
+    }
+    .footer__rights {
+        font-size: 11px;
+    }
+    
+
+ }
+
+ @media (max-width: 370px) {
+
+    
+    .header__slider-inner {
+        .slick-arrow-next {
+            right: 35%;
+        }
+        .slick-arrow-prew {
+            left: 35%;
+        }
+    }
+
+ }
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 720px) {
+  
+
+}
